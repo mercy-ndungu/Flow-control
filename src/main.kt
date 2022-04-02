@@ -1,5 +1,5 @@
 fun main(){
-    var name = "Tom"
+ /*   var name = "Tom"
     if (name=="tom")
         println("Hello Tom")
     else
@@ -25,7 +25,16 @@ fun main(){
 for(x in 1..10)
     if(x%2!==0){
         println(x*x)
-    }
+    }*/
+    for(y in 1..1000)
+        if(y%6 == 0 && y%8 ==0){
+            println("Bingo")
+        }
+    else if (y%6 == 0 || y%8 ==0){
+        println(y)
+        }
+
+
 
 
 
